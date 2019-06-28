@@ -11,7 +11,7 @@ import HomeScreen from '../Pages/HomeScreen'
 import SettingsScreen from '../Pages/SettingScreen'
 import ProfileScreen from '../Pages/ProfileScreen'
 import LoginScreen from '../Pages/LoginScreen'
-// import BasicExample from '../Pages/Lottie'
+import BasicExample from '../Pages/Lottie'
 
 class DetailsScreen extends React.Component {
   render() {
@@ -59,7 +59,7 @@ class BottomNavigationShowcase extends React.Component {
 const HomeStack = createStackNavigator({
   Home: HomeScreen,
   Details: DetailsScreen,
-  // BasicExample: BasicExample,
+  BasicExample: BasicExample,
 });
 
 const SettingsStack = createStackNavigator({
